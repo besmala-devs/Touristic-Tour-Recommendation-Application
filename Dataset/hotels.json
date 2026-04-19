@@ -1,0 +1,2147 @@
+[
+    {
+        "hotel_id": 1,
+        "name": "Hôtel de la Poste",
+        "gps": [
+            36.78037,
+            3.06052
+        ],
+        "stars": 3,
+        "price_per_night": 4875.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 2,
+        "name": "AFRIC HOTEL - Casbah",
+        "gps": [
+            36.7805,
+            3.05881
+        ],
+        "stars": 4,
+        "price_per_night": 8900.0,
+        "region": "Casbah"
+    },
+    {
+        "hotel_id": 3,
+        "name": "Hôtel Nelson",
+        "gps": [
+            36.79026,
+            3.06012
+        ],
+        "stars": 4,
+        "price_per_night": 7530.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 4,
+        "name": "Oasis Hotel",
+        "gps": [
+            36.74117,
+            3.09182
+        ],
+        "stars": 5,
+        "price_per_night": 9520.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 5,
+        "name": "Hôtel - Le Faubourg",
+        "gps": [
+            36.73505,
+            3.06356
+        ],
+        "stars": 3,
+        "price_per_night": 6155.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 6,
+        "name": "HOTEL HNR",
+        "gps": [
+            36.75544,
+            3.05902
+        ],
+        "stars": 3,
+        "price_per_night": 10301.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 7,
+        "name": "Entire House Cherchell",
+        "gps": [
+            36.60333,
+            2.18136
+        ],
+        "stars": 3,
+        "price_per_night": 22000.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 8,
+        "name": "Dar El Ikram",
+        "gps": [
+            36.76533,
+            3.04549
+        ],
+        "stars": 3,
+        "price_per_night": 6550.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 9,
+        "name": "Hôtel Plaza - Belcourt",
+        "gps": [
+            36.75542,
+            3.05957
+        ],
+        "stars": 3,
+        "price_per_night": 7729.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 10,
+        "name": "Hôtel Saint Eugène",
+        "gps": [
+            36.79693,
+            3.04775
+        ],
+        "stars": 4,
+        "price_per_night": 13966.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 11,
+        "name": "Hôtel Sidi Thameur",
+        "gps": [
+            36.80299,
+            3.04785
+        ],
+        "stars": 4,
+        "price_per_night": 9000.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 12,
+        "name": "Lamaraz Arts Hotel",
+        "gps": [
+            36.741,
+            3.098
+        ],
+        "stars": 4,
+        "price_per_night": 20000.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 13,
+        "name": "Sofitel Algiers Hamma Garden",
+        "gps": [
+            36.748,
+            3.07
+        ],
+        "stars": 5,
+        "price_per_night": 25000.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 14,
+        "name": "Residence Inn by Marriott Algiers Bab Ezzouar",
+        "gps": [
+            36.713,
+            3.19
+        ],
+        "stars": 4,
+        "price_per_night": 22000.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 15,
+        "name": "El Aurassi Hotel",
+        "gps": [
+            36.775,
+            3.058
+        ],
+        "stars": 5,
+        "price_per_night": 54200.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 16,
+        "name": "Ben Aouda Hotel",
+        "gps": [
+            36.59907,
+            2.41107
+        ],
+        "stars": 4,
+        "price_per_night": 13644.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 17,
+        "name": "Chenoua Hotel",
+        "gps": [
+            36.60722,
+            2.40782
+        ],
+        "stars": 4,
+        "price_per_night": 16350.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 18,
+        "name": "Hotel La Côte Turquoise",
+        "gps": [
+            36.59265,
+            2.45027
+        ],
+        "stars": 3,
+        "price_per_night": 6550.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 19,
+        "name": "Samir Hotel",
+        "gps": [
+            36.765,
+            3.06
+        ],
+        "stars": 3,
+        "price_per_night": 22400.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 20,
+        "name": "KDS Residence",
+        "gps": [
+            36.607,
+            2.1911
+        ],
+        "stars": 3,
+        "price_per_night": 9000.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 21,
+        "name": "Hôtel Namymas - Berard",
+        "gps": [
+            36.60351,
+            2.60677
+        ],
+        "stars": 3,
+        "price_per_night": 4452.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 22,
+        "name": "SYM Hotel",
+        "gps": [
+            36.75829,
+            2.95905
+        ],
+        "stars": 5,
+        "price_per_night": 27500.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 23,
+        "name": "Holiday Inn Algiers - Cheraga Tower, an IHG hotel",
+        "gps": [
+            36.74874,
+            2.95059
+        ],
+        "stars": 5,
+        "price_per_night": 31250.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 24,
+        "name": "Hotel Necib Cherchell",
+        "gps": [
+            36.60821,
+            2.19147
+        ],
+        "stars": 3,
+        "price_per_night": 7500.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 25,
+        "name": "Sheraton Club Des Pins Resort",
+        "gps": [
+            36.76316,
+            2.87369
+        ],
+        "stars": 5,
+        "price_per_night": 43500.0,
+        "region": "Algiers"
+    },
+    {
+        "hotel_id": 26,
+        "name": "The Golden Horn Complex",
+        "gps": [
+            36.59456,
+            2.4718
+        ],
+        "stars": 3,
+        "price_per_night": 6000.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 27,
+        "name": "Yassine Hotel",
+        "gps": [
+            36.58713,
+            2.44647
+        ],
+        "stars": 2,
+        "price_per_night": 6000.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 28,
+        "name": "Ville Des Roses Hotel",
+        "gps": [
+            36.47935,
+            2.81991
+        ],
+        "stars": 4,
+        "price_per_night": 13366.0,
+        "region": "Chrea"
+    },
+    {
+        "hotel_id": 29,
+        "name": "BN Hotel",
+        "gps": [
+            36.4963,
+            2.84811
+        ],
+        "stars": 3,
+        "price_per_night": 11094.0,
+        "region": "Chrea"
+    },
+    {
+        "hotel_id": 30,
+        "name": "HOTEL El-AQSA",
+        "gps": [
+            36.47032,
+            2.82331
+        ],
+        "stars": 3,
+        "price_per_night": 6990.0,
+        "region": "Chrea"
+    },
+    {
+        "hotel_id": 31,
+        "name": "3-Bedroom Sea View Apartment",
+        "gps": [
+            36.56254,
+            2.1145
+        ],
+        "stars": 3,
+        "price_per_night": 18000.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 32,
+        "name": "Hôtel Zaccar",
+        "gps": [
+            36.3741,
+            2.3972
+        ],
+        "stars": 3,
+        "price_per_night": 8000.0,
+        "region": "Aïn Defla"
+    },
+    {
+        "hotel_id": 33,
+        "name": "Spacious Sea View Villa with Private Pool & Garden",
+        "gps": [
+            36.42122,
+            1.7753
+        ],
+        "stars": 4,
+        "price_per_night": 25000.0,
+        "region": "Tipaza"
+    },
+    {
+        "hotel_id": 34,
+        "name": "Clean Hôtel Blida",
+        "gps": [
+            36.4712,
+            2.82061
+        ],
+        "stars": 3,
+        "price_per_night": 11994.0,
+        "region": "Blida"
+    },
+    {
+        "hotel_id": 35,
+        "name": "Hôtel Ruisseau Des Singes",
+        "gps": [
+            36.40055,
+            2.76209
+        ],
+        "stars": 3,
+        "price_per_night": 5890.0,
+        "region": "Blida"
+    },
+    {
+        "hotel_id": 36,
+        "name": "Hotel Boumerdes Plaza",
+        "gps": [
+            36.76592,
+            3.4736
+        ],
+        "stars": 4,
+        "price_per_night": 14060.0,
+        "region": "Boumerdès"
+    },
+    {
+        "hotel_id": 37,
+        "name": "Numidien Hotel",
+        "gps": [
+            36.72418,
+            3.23812
+        ],
+        "stars": 3,
+        "price_per_night": 12525.0,
+        "region": "Boumerdès"
+    },
+    {
+        "hotel_id": 38,
+        "name": "Medina Hotel",
+        "gps": [
+            36.7665,
+            3.4532
+        ],
+        "stars": 3,
+        "price_per_night": 14036.0,
+        "region": "Boumerdès"
+    },
+    {
+        "hotel_id": 39,
+        "name": "Hotel Rais El Marsa",
+        "gps": [
+            36.75071,
+            3.46988
+        ],
+        "stars": 3,
+        "price_per_night": 15692.0,
+        "region": "Boumerdès"
+    },
+    {
+        "hotel_id": 40,
+        "name": "Coast Hotel",
+        "gps": [
+            36.74762,
+            3.48529
+        ],
+        "stars": 4,
+        "price_per_night": 12000.0,
+        "region": "Boumerdès"
+    },
+    {
+        "hotel_id": 41,
+        "name": "Auberge de jeunesse Tibhirine",
+        "gps": [
+            36.29822,
+            2.71587
+        ],
+        "stars": 1,
+        "price_per_night": 2500.0,
+        "region": "Médéa"
+    },
+    {
+        "hotel_id": 42,
+        "name": "Hôtel Sameur",
+        "gps": [
+            36.37551,
+            2.76663
+        ],
+        "stars": 2,
+        "price_per_night": 5000.0,
+        "region": "Médéa"
+    },
+    {
+        "hotel_id": 43,
+        "name": "Hôtel M'sallah",
+        "gps": [
+            36.26264,
+            2.76569
+        ],
+        "stars": 2,
+        "price_per_night": 4500.0,
+        "region": "Médéa"
+    },
+    {
+        "hotel_id": 44,
+        "name": "Constantine Marriott Hotel",
+        "gps": [
+            36.34735,
+            6.61684
+        ],
+        "stars": 5,
+        "price_per_night": 22000,
+        "region": "Constantine"
+    },
+    {
+        "hotel_id": 45,
+        "name": "ibis Constantine",
+        "gps": [
+            36.36584,
+            6.60836
+        ],
+        "stars": 3,
+        "price_per_night": 8500,
+        "region": "Constantine"
+    },
+    {
+        "hotel_id": 46,
+        "name": "Cirta Hotel",
+        "gps": [
+            36.36338,
+            6.60914
+        ],
+        "stars": 3,
+        "price_per_night": 8000,
+        "region": "Constantine"
+    },
+    {
+        "hotel_id": 47,
+        "name": "Hotel Dali Constantine",
+        "gps": [
+            36.30082,
+            6.61813
+        ],
+        "stars": 3,
+        "price_per_night": 5700,
+        "region": "Constantine"
+    },
+    {
+        "hotel_id": 48,
+        "name": "Hotel El Bey",
+        "gps": [
+            36.33764,
+            6.65032
+        ],
+        "stars": 3,
+        "price_per_night": 9600,
+        "region": "Constantine"
+    },
+    {
+        "hotel_id": 49,
+        "name": "Sheraton Annaba Hotel",
+        "gps": [
+            36.90241,
+            7.76224
+        ],
+        "stars": 5,
+        "price_per_night": 22569,
+        "region": "Annaba"
+    },
+    {
+        "hotel_id": 50,
+        "name": "Hotel Le Majestic",
+        "gps": [
+            36.90606,
+            7.76013
+        ],
+        "stars": 3,
+        "price_per_night": 5045,
+        "region": "Annaba"
+    },
+    {
+        "hotel_id": 51,
+        "name": "Hotel d’Orient",
+        "gps": [
+            36.89937,
+            7.76008
+        ],
+        "stars": 3,
+        "price_per_night": 9118,
+        "region": "Annaba"
+    },
+    {
+        "hotel_id": 52,
+        "name": "Tulip Inn Rym El Djamil",
+        "gps": [
+            36.94806,
+            7.77231
+        ],
+        "stars": 3,
+        "price_per_night": 6268,
+        "region": "Annaba"
+    },
+    {
+        "hotel_id": 53,
+        "name": "Royal Tulip Skikda",
+        "gps": [
+            36.89878,
+            7.03146
+        ],
+        "stars": 5,
+        "price_per_night": 12453,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 54,
+        "name": "Hotel Belle Vue",
+        "gps": [
+            36.90456,
+            7.04573
+        ],
+        "stars": 4,
+        "price_per_night": 15233,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 55,
+        "name": "Hotel Mon Royaume",
+        "gps": [
+            36.87714,
+            6.90752
+        ],
+        "stars": 3,
+        "price_per_night": 6450,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 56,
+        "name": "Sabri Hotel",
+        "gps": [
+            36.93856,
+            7.76642
+        ],
+        "stars": 4,
+        "price_per_night": 4434,
+        "region": "Annaba"
+    },
+    {
+        "hotel_id": 57,
+        "name": "Hôtel Remes",
+        "gps": [
+            36.34261,
+            6.64495
+        ],
+        "stars": 3,
+        "price_per_night": 8320,
+        "region": "Guelma"
+    },
+    {
+        "hotel_id": 58,
+        "name": "Oum Elkhir Hôtel",
+        "gps": [
+            36.28181,
+            7.94692
+        ],
+        "stars": 2,
+        "price_per_night": 4350,
+        "region": "Souk Ahras"
+    },
+    {
+        "hotel_id": 59,
+        "name": "Thagaste Hôtel",
+        "gps": [
+            36.2844,
+            7.95709
+        ],
+        "stars": 1,
+        "price_per_night": 3100,
+        "region": "Souk Ahras"
+    },
+    {
+        "hotel_id": 60,
+        "name": "M'zab Hotel",
+        "gps": [
+            32.48454,
+            3.67635
+        ],
+        "stars": 3.3,
+        "price_per_night": 9000,
+        "region": "Ghardaia"
+    },
+    {
+        "hotel_id": 61,
+        "name": "Belvedere hotel",
+        "gps": [
+            32.49361,
+            3.69052
+        ],
+        "stars": 3,
+        "price_per_night": 9461,
+        "region": "Ghardaia"
+    },
+    {
+        "hotel_id": 62,
+        "name": "Hotel El djanoub",
+        "gps": [
+            32.49549,
+            3.68068
+        ],
+        "stars": 3.1,
+        "price_per_night": 3822,
+        "region": "Ghardaia"
+    },
+    {
+        "hotel_id": 63,
+        "name": "Hotel Touat",
+        "gps": [
+            27.87333,
+            -0.28564
+        ],
+        "stars": 4,
+        "price_per_night": 6459,
+        "region": "Adrar"
+    },
+    {
+        "hotel_id": 64,
+        "name": "Bounagah Hotel",
+        "gps": [
+            26.49814,
+            8.47533
+        ],
+        "stars": 3,
+        "price_per_night": 6200,
+        "region": "Illizi"
+    },
+    {
+        "hotel_id": 65,
+        "name": "Hotel ElHadj Bouamama Salah N'Azdjer",
+        "gps": [
+            26.50349,
+            8.48022
+        ],
+        "stars": 4.7,
+        "price_per_night": 7925,
+        "region": "Illizi"
+    },
+    {
+        "hotel_id": 66,
+        "name": "Gourara Hotel",
+        "gps": [
+            29.26283,
+            0.22235
+        ],
+        "stars": 4,
+        "price_per_night": 9598,
+        "region": "Timimoun"
+    },
+    {
+        "hotel_id": 67,
+        "name": "Hotel Mraguen",
+        "gps": [
+            28.00436,
+            -0.27798
+        ],
+        "stars": 4,
+        "price_per_night": 7739,
+        "region": "Adrar"
+    },
+    {
+        "hotel_id": 68,
+        "name": "Hotel Takialt",
+        "gps": [
+            27.87646,
+            -0.28926
+        ],
+        "stars": 1,
+        "price_per_night": 1880,
+        "region": "Adrar"
+    },
+    {
+        "hotel_id": 69,
+        "name": "Maha Hotel",
+        "gps": [
+            22.79767,
+            5.55412
+        ],
+        "stars": 1,
+        "price_per_night": 4033,
+        "region": "Tamanrasset"
+    },
+    {
+        "hotel_id": 70,
+        "name": "Tahat Hotel",
+        "gps": [
+            22.78297,
+            5.53519
+        ],
+        "stars": 3.2,
+        "price_per_night": 12000,
+        "region": "Tamanrasset"
+    },
+    {
+        "hotel_id": 71,
+        "name": "HOTEL AYANIS",
+        "gps": [
+            28.04844,
+            9.58302
+        ],
+        "stars": 3,
+        "price_per_night": 11865,
+        "region": "In Amenas"
+    },
+    {
+        "hotel_id": 72,
+        "name": "Hôtel Tedjani",
+        "gps": [
+            33.3907,
+            6.83578
+        ],
+        "stars": 3.7,
+        "price_per_night": 3270,
+        "region": "El Oued"
+    },
+    {
+        "hotel_id": 73,
+        "name": "Grand Hôtel du Souf",
+        "gps": [
+            33.3609,
+            6.86288
+        ],
+        "stars": 3.6,
+        "price_per_night": 9796,
+        "region": "El Oued"
+    },
+    {
+        "hotel_id": 74,
+        "name": "AIFA Hotel",
+        "gps": [
+            31.73272,
+            6.04311
+        ],
+        "stars": 4.5,
+        "price_per_night": 18384,
+        "region": "Hassi Messaoud "
+    },
+    {
+        "hotel_id": 75,
+        "name": "Hotel Golden H",
+        "gps": [
+            36.74089,
+            5.05929
+        ],
+        "stars": 3,
+        "price_per_night": 8425,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 76,
+        "name": "Atlantis Hotel",
+        "gps": [
+            36.72204,
+            5.06279
+        ],
+        "stars": 4.5,
+        "price_per_night": 14975,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 77,
+        "name": "Hotel Brahmi",
+        "gps": [
+            36.75284,
+            5.07273
+        ],
+        "stars": 2.5,
+        "price_per_night": 6550,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 78,
+        "name": "Hotel du Nord",
+        "gps": [
+            36.75518,
+            5.08044
+        ],
+        "stars": 3,
+        "price_per_night": 8500,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 79,
+        "name": "Saldae Hotel",
+        "gps": [
+            36.75505,
+            5.08864
+        ],
+        "stars": 3.5,
+        "price_per_night": 17090,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 80,
+        "name": "Hotel de l'etoile",
+        "gps": [
+            36.75427,
+            5.08529
+        ],
+        "stars": 3,
+        "price_per_night": 13000,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 81,
+        "name": "Syphax Hotel",
+        "gps": [
+            36.6713,
+            5.15334
+        ],
+        "stars": 3,
+        "price_per_night": 8021,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 82,
+        "name": "Hotel la bravoure",
+        "gps": [
+            36.75427,
+            5.07942
+        ],
+        "stars": 3,
+        "price_per_night": 7121,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 83,
+        "name": "Hotel Beni Hamad",
+        "gps": [
+            36.06846,
+            4.76543
+        ],
+        "stars": 3,
+        "price_per_night": 8400,
+        "region": "Bourdj"
+    },
+    {
+        "hotel_id": 84,
+        "name": "Hotel Lina",
+        "gps": [
+            36.07396,
+            4.83521
+        ],
+        "stars": 3.5,
+        "price_per_night": 9700,
+        "region": "Bourdj"
+    },
+    {
+        "hotel_id": 85,
+        "name": "Sofy Hotel",
+        "gps": [
+            36.38003,
+            3.89225
+        ],
+        "stars": 3,
+        "price_per_night": 8900,
+        "region": "Bouira"
+    },
+    {
+        "hotel_id": 86,
+        "name": "Hotel Le Royal",
+        "gps": [
+            36.37918,
+            3.89951
+        ],
+        "stars": 2,
+        "price_per_night": 7200,
+        "region": "Bouira"
+    },
+    {
+        "hotel_id": 87,
+        "name": "AB hotel",
+        "gps": [
+            36.38479,
+            3.87424
+        ],
+        "stars": 3.5,
+        "price_per_night": 11200,
+        "region": "Bouira"
+    },
+    {
+        "hotel_id": 88,
+        "name": "hotel La Roseraie",
+        "gps": [
+            36.63263,
+            5.24654
+        ],
+        "stars": 3,
+        "price_per_night": 9500,
+        "region": "Jijel"
+    },
+    {
+        "hotel_id": 89,
+        "name": "Hôtel de la Plage d'or",
+        "gps": [
+            36.81891,
+            5.70884
+        ],
+        "stars": 2,
+        "price_per_night": 5000,
+        "region": "Jijel"
+    },
+    {
+        "hotel_id": 90,
+        "name": "Hotel Dar El Aaz",
+        "gps": [
+            36.82296,
+            5.75508
+        ],
+        "stars": 3,
+        "price_per_night": 11000,
+        "region": "Jijel"
+    },
+    {
+        "hotel_id": 91,
+        "name": "Hotel Raya",
+        "gps": [
+            36.66832,
+            5.15721
+        ],
+        "stars": 3,
+        "price_per_night": 8001,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 92,
+        "name": "Hotel Les Hammadites",
+        "gps": [
+            36.67337,
+            5.14741
+        ],
+        "stars": 2,
+        "price_per_night": 8770,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 93,
+        "name": "Hotel Bayazid",
+        "gps": [
+            36.19996,
+            5.3851
+        ],
+        "stars": 4,
+        "price_per_night": 13675,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 94,
+        "name": "Hotel Tafet",
+        "gps": [
+            36.33420,
+            5.08963
+        ],
+        "stars": 2,
+        "price_per_night": 3612414,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 95,
+        "name": "Park Mall Hotel",
+        "gps": [
+            36.1911,
+            5.40923
+        ],
+        "stars": 4,
+        "price_per_night": 10331,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 96,
+        "name": "Ibis Hotel",
+        "gps": [
+            36.19281,
+            5.41109
+        ],
+        "stars": 3,
+        "price_per_night": 6877,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 97,
+        "name": "Zidane Hotel",
+        "gps": [
+            36.2007,
+            5.41293
+        ],
+        "stars": 4,
+        "price_per_night": 13000,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 98,
+        "name": "Golden H Bejaia",
+        "gps": [
+            36.74104,
+            5.05931
+        ],
+        "stars": 3,
+        "price_per_night": 5858,
+        "region": "Bejaia"
+    },
+    {
+        "hotel_id": 99,
+        "name": "Frantz Fanon Hotel",
+        "gps": [
+            36.1881,
+            5.40455
+        ],
+        "stars": 2,
+        "price_per_night": 6122,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 100,
+        "name": "Hotel Brahmi",
+        "gps": [
+            36.75299,
+            5.07279
+        ],
+        "stars": 2,
+        "price_per_night": 6751,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 101,
+        "name": "Borsa",
+        "gps": [
+            36.14992,
+            5.68301
+        ],
+        "stars": 2,
+        "price_per_night": 7050,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 102,
+        "name": "Elchark",
+        "gps": [
+            36.15183,
+            5.69156
+        ],
+        "stars": 2,
+        "price_per_night": 6200,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 103,
+        "name": "El Bez",
+        "gps": [
+            36.15287,
+            5.69527
+        ],
+        "stars": 2,
+        "price_per_night": 6423,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 104,
+        "name": "Dubai HD Hotel",
+        "gps": [
+            36.15568,
+            5.67755
+        ],
+        "stars": 1,
+        "price_per_night": 5430,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 105,
+        "name": "Auberge de jeunesse",
+        "gps": [
+            36.32399,
+            5.73507
+        ],
+        "stars": 2,
+        "price_per_night": 4543,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 106,
+        "name": "hotel Cuicul",
+        "gps": [
+            36.32032,
+            5.73432
+        ],
+        "stars": 1,
+        "price_per_night": 3453,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 107,
+        "name": "Beautiful sight Hotel",
+        "gps": [
+            36.32403,
+            5.73822
+        ],
+        "stars": 1,
+        "price_per_night": 3700,
+        "region": "Setif"
+    },
+    {
+        "hotel_id": 108,
+        "name": "Hotel El Hayat",
+        "gps": [
+            35.55411,
+            6.17574
+        ],
+        "stars": 2,
+        "price_per_night": 5902,
+        "region": "Batna"
+    },
+    {
+        "hotel_id": 109,
+        "name": "Hotel El Yasmin",
+        "gps": [
+            35.55333,
+            6.17883
+        ],
+        "stars": 1,
+        "price_per_night": 4500,
+        "region": "Batna"
+    },
+    {
+        "hotel_id": 110,
+        "name": "Hotel Brahimi",
+        "gps": [
+            35.55447,
+            6.14748
+        ],
+        "stars": 2,
+        "price_per_night": 5000,
+        "region": "Batna"
+    },
+    {
+        "hotel_id": 111,
+        "name": "Ziban Hotel",
+        "gps": [
+            34.85457,
+            5.70928
+        ],
+        "stars": 3,
+        "price_per_night": 8228,
+        "region": "Khanchla"
+    },
+    {
+        "hotel_id": 112,
+        "name": "Hammam Salihine",
+        "gps": [
+            34.85767,
+            5.70819
+        ],
+        "stars": 2,
+        "price_per_night": 6600,
+        "region": "Khanchla"
+    },
+    {
+        "hotel_id": 113,
+        "name": "El Kalaa",
+        "gps": [
+            35.72494,
+            4.54922
+        ],
+        "stars": 2,
+        "price_per_night": 7000,
+        "region": "Msila"
+    },
+    {
+        "hotel_id": 114,
+        "name": "Brainis Roulier Routier",
+        "gps": [
+            35.8686,
+            4.40492
+        ],
+        "stars": 2,
+        "price_per_night": 6760,
+        "region": "Msila"
+    },
+    {
+        "hotel_id": 115,
+        "name": "Ben Osman",
+        "gps": [
+            35.4079,
+            8.13096
+        ],
+        "stars": 1,
+        "price_per_night": 3450,
+        "region": "Tbessa"
+    },
+    {
+        "hotel_id": 116,
+        "name": "El Emir",
+        "gps": [
+            35.40699,
+            8.1126
+        ],
+        "stars": 1,
+        "price_per_night": 3800,
+        "region": "Tbessa"
+    },
+    {
+        "hotel_id": 117,
+        "name": "Renaissance Tlemcen Hotel",
+        "gps": [
+            34.867,
+            -1.31617
+        ],
+        "stars": 5,
+        "price_per_night": 19000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 118,
+        "name": "Ibis Tlemcen",
+        "gps": [
+            34.88951,
+            -1.33532
+        ],
+        "stars": 3,
+        "price_per_night": 9000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 119,
+        "name": "Hotel Grand Bassin",
+        "gps": [
+            34.87955,
+            -1.31723
+        ],
+        "stars": 3,
+        "price_per_night": 6300.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 120,
+        "name": "Hotel les Zianides",
+        "gps": [
+            34.8805,
+            -1.30214
+        ],
+        "stars": 3,
+        "price_per_night": 9500.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 121,
+        "name": "Hotel Stambouli",
+        "gps": [
+            34.88251,
+            -1.30356
+        ],
+        "stars": 3,
+        "price_per_night": 5000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 122,
+        "name": "Hotel El Menzah Kazi",
+        "gps": [
+            34.8804,
+            -1.32713
+        ],
+        "stars": 2,
+        "price_per_night": 4000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 123,
+        "name": "Hotel Islam",
+        "gps": [
+            34.88733,
+            -1.31683
+        ],
+        "stars": 3,
+        "price_per_night": 7000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 124,
+        "name": "Hotel Atlantis Djalab",
+        "gps": [
+            35.49364,
+            -1.21686
+        ],
+        "stars": 4,
+        "price_per_night": 23000.0,
+        "region": "Ain Temouchent"
+    },
+    {
+        "hotel_id": 125,
+        "name": "Hotel Metropole",
+        "gps": [
+            35.19553,
+            -0.63672
+        ],
+        "stars": 3,
+        "price_per_night": 5500.0,
+        "region": "Sidi Bel Abbes"
+    },
+    {
+        "hotel_id": 126,
+        "name": "Hotel Benitala",
+        "gps": [
+            35.18665,
+            -0.61707
+        ],
+        "stars": 4,
+        "price_per_night": 9000.0,
+        "region": "Sidi Bel Abbes"
+    },
+    {
+        "hotel_id": 127,
+        "name": "Royal Hotel Oran - MGallery",
+        "gps": [
+            35.70345,
+            -0.64781
+        ],
+        "stars": 5,
+        "price_per_night": 19000.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 128,
+        "name": "Hotel Les Ambassadeurs",
+        "gps": [
+            35.69802,
+            -0.65055
+        ],
+        "stars": 3,
+        "price_per_night": 7000.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 129,
+        "name": "Sheraton Oran Hotel",
+        "gps": [
+            35.7176,
+            -0.6101
+        ],
+        "stars": 5,
+        "price_per_night": 20000.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 130,
+        "name": "AZ Hotel Grand Oran",
+        "gps": [
+            35.6761,
+            -0.60307
+        ],
+        "stars": 5,
+        "price_per_night": 27000.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 131,
+        "name": "Sofi Hotel Oran",
+        "gps": [
+            35.69348,
+            -0.62023
+        ],
+        "stars": 3,
+        "price_per_night": 7387.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 132,
+        "name": "Hôtel Les Palmiers",
+        "gps": [
+            35.925,
+            0.07667
+        ],
+        "stars": 3,
+        "price_per_night": 6000.0,
+        "region": "Mostaganem"
+    },
+    {
+        "hotel_id": 133,
+        "name": "Palacio Hotel",
+        "gps": [
+            35.93203,
+            0.08651
+        ],
+        "stars": 3,
+        "price_per_night": 7652.0,
+        "region": "Mostaganem"
+    },
+    {
+        "hotel_id": 134,
+        "name": "AZ HOTEL MONTANA",
+        "gps": [
+            35.9557,
+            0.09447
+        ],
+        "stars": 4,
+        "price_per_night": 18500.0,
+        "region": "Mostaganem"
+    },
+    {
+        "hotel_id": 135,
+        "name": "El Omara  Hotel",
+        "gps": [
+            35.88525,
+            0.04529
+        ],
+        "stars": 3,
+        "price_per_night": 8000.0,
+        "region": "Mostaganem"
+    },
+    {
+        "hotel_id": 136,
+        "name": "AZ Hotel Zephyr",
+        "gps": [
+            35.88979,
+            0.04963
+        ],
+        "stars": 4,
+        "price_per_night": 20000.0,
+        "region": "Mostaganem"
+    },
+    {
+        "hotel_id": 137,
+        "name": "Hotel podiots BADJOUDA",
+        "gps": [
+            27.19825,
+            2.47537
+        ],
+        "stars": 4,
+        "price_per_night": 6000.0,
+        "region": "Ain Salah"
+    },
+    {
+        "hotel_id": 138,
+        "name": " Hotel Tidikelt",
+        "gps": [
+            27.2012,
+            2.48937
+        ],
+        "stars": 4,
+        "price_per_night": 5280.0,
+        "region": "Ain Salah"
+    },
+    {
+        "hotel_id": 139,
+        "name": "House of Youth Motel",
+        "gps": [
+            23.41454,
+            6.27435
+        ],
+        "stars": 4,
+        "price_per_night": 3450.0,
+        "region": "Tamanrasset"
+    },
+    {
+        "hotel_id": 140,
+        "name": "Hôtel  ElAroui ElDhahabi",
+        "gps": [
+            22.7898,
+            5.54038
+        ],
+        "stars": 4,
+        "price_per_night": 3450.0,
+        "region": "Tamanrasset"
+    },
+    {
+        "hotel_id": 141,
+        "name": "Ajad Hôtel",
+        "gps": [
+            19.58367,
+            5.77425
+        ],
+        "stars": 3.7,
+        "price_per_night": 1250.0,
+        "region": "In Guezzam"
+    },
+    {
+        "hotel_id": 142,
+        "name": "Ferahtia Motel",
+        "gps": [
+            19.58256,
+            5.77033
+        ],
+        "stars": 2.5,
+        "price_per_night": 2350.0,
+        "region": "In Guezzam"
+    },
+    {
+        "hotel_id": 143,
+        "name": "Les Deux Tours",
+        "gps": [
+            32.46137,
+            3.68639
+        ],
+        "stars": 3,
+        "price_per_night": 8350.0,
+        "region": "Ghardaia"
+    },
+    {
+        "hotel_id": 144,
+        "name": "MIRANA MAYOTTE HOSTEL 47",
+        "gps": [
+            32.48747,
+            3.68059
+        ],
+        "stars": 4.6,
+        "price_per_night": 3600.0,
+        "region": "Ghardaia"
+    },
+    {
+        "hotel_id": 145,
+        "name": "Hotel Atlantide",
+        "gps": [
+            32.48723,
+            3.67776
+        ],
+        "stars": 3.5,
+        "price_per_night": 4553.0,
+        "region": "Ghardaia"
+    },
+    {
+        "hotel_id": 146,
+        "name": "Hotel Tayeb Larbi",
+        "gps": [
+            26.50174,
+            8.473
+        ],
+        "stars": 3.5,
+        "price_per_night": 3453.0,
+        "region": "Illizi"
+    },
+    {
+        "hotel_id": 147,
+        "name": "Zeriba Hotel",
+        "gps": [
+            24.55364,
+            9.48296
+        ],
+        "stars": 2.4,
+        "price_per_night": 7000.0,
+        "region": "Illizi"
+    },
+    {
+        "hotel_id": 148,
+        "name": "Auberge Djanet",
+        "gps": [
+            24.59094,
+            9.46222
+        ],
+        "stars": 3.0,
+        "price_per_night": 6500.0,
+        "region": "Illizi"
+    },
+    {
+        "hotel_id": 149,
+        "name": "Hôtel Ain Bouda",
+        "gps": [
+            27.87512,
+            -0.28944
+        ],
+        "stars": 4.5,
+        "price_per_night": 4999.0,
+        "region": "Adrar"
+    },
+    {
+        "hotel_id": 150,
+        "name": "NEDJMA HOTEL",
+        "gps": [
+            34.88339,
+            -1.35047
+        ],
+        "stars": 2,
+        "price_per_night": 3500.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 151,
+        "name": "RELAX HOTEL",
+        "gps": [
+            34.87639,
+            -1.28967
+        ],
+        "stars": 2,
+        "price_per_night": 3000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 152,
+        "name": "Aquarium Hotel",
+        "gps": [
+            35.30099,
+            -1.40241
+        ],
+        "stars": 3,
+        "price_per_night": 7000.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 153,
+        "name": "El Mokhtar Hotel",
+        "gps": [
+            35.3014,
+            -1.46639
+        ],
+        "stars": 4,
+        "price_per_night": 10000.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 154,
+        "name": "Hotel Belle Vue Rechgoun",
+        "gps": [
+            35.29896,
+            -1.46879
+        ],
+        "stars": 3,
+        "price_per_night": 7000.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 155,
+        "name": "Benmedjahed Hotel",
+        "gps": [
+            35.29778,
+            -1.46921
+        ],
+        "stars": 3,
+        "price_per_night": 6000.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 156,
+        "name": "Hotel RAYANE",
+        "gps": [
+            35.29875,
+            -1.46813
+        ],
+        "stars": 2,
+        "price_per_night": 3500.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 157,
+        "name": "Hotel Benmansour",
+        "gps": [
+            35.29943,
+            -1.46858
+        ],
+        "stars": 2,
+        "price_per_night": 4000.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 158,
+        "name": "Hadj Abdellah Hotel",
+        "gps": [
+            35.91899,
+            0.1145
+        ],
+        "stars": 2,
+        "price_per_night": 3500.0,
+        "region": "Mostaganem"
+    },
+    {
+        "hotel_id": 159,
+        "name": "Complexe touristique Les Andalouses",
+        "gps": [
+            35.70541,
+            -0.89558
+        ],
+        "stars": 3,
+        "price_per_night": 7000.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 160,
+        "name": "Hotel Miami Beach.",
+        "gps": [
+            35.70621,
+            -0.88593
+        ],
+        "stars": 3,
+        "price_per_night": 7500.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 161,
+        "name": "Hôtel New Beach",
+        "gps": [
+            35.71108,
+            -0.87236
+        ],
+        "stars": 4,
+        "price_per_night": 9500.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 162,
+        "name": "Hotel Mira",
+        "gps": [
+            35.70025,
+            -0.64879
+        ],
+        "stars": 2,
+        "price_per_night": 4000.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 163,
+        "name": "Charme El Cheikh Hotel",
+        "gps": [
+            35.69647,
+            -0.64596
+        ],
+        "stars": 3,
+        "price_per_night": 7275.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 164,
+        "name": "Résidence Le Jasmin",
+        "gps": [
+            35.69906,
+            -0.59834
+        ],
+        "stars": 4,
+        "price_per_night": 10301.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 165,
+        "name": "Hôtel le Cheval Blanc",
+        "gps": [
+            35.70112,
+            -0.63836
+        ],
+        "stars": 2,
+        "price_per_night": 5000.0,
+        "region": "Oran"
+    },
+    {
+        "hotel_id": 166,
+        "name": "Hotel Moustakbel",
+        "gps": [
+            35.0837,
+            -2.20337
+        ],
+        "stars": 3,
+        "price_per_night": 6000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 167,
+        "name": "LA BOURGEOISE",
+        "gps": [
+            35.08032,
+            -2.2032
+        ],
+        "stars": 4,
+        "price_per_night": 10000.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 168,
+        "name": "Résidence BADIS",
+        "gps": [
+            35.0817,
+            -2.20278
+        ],
+        "stars": 2,
+        "price_per_night": 3500.0,
+        "region": "Tlemcen"
+    },
+    {
+        "hotel_id": 169,
+        "name": "Le Bateau",
+        "gps": [
+            35.44051,
+            -1.23453
+        ],
+        "stars": 3,
+        "price_per_night": 8465.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 170,
+        "name": "Karaibes Resort",
+        "gps": [
+            35.45025,
+            -1.228
+        ],
+        "stars": 3.5,
+        "price_per_night": 11000.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 171,
+        "name": "Résidence Nadjia",
+        "gps": [
+            35.4916,
+            -1.21724
+        ],
+        "stars": 2,
+        "price_per_night": 4000.0,
+        "region": "Ain temouchent"
+    },
+    {
+        "hotel_id": 172,
+        "name": "Hotel Palace",
+        "gps": [
+            35.1923,
+            -0.63324
+        ],
+        "stars": 2,
+        "price_per_night": 3500.0,
+        "region": "Sidi Bel Abbes"
+    },
+    {
+        "hotel_id": 173,
+        "name": "Hotel Eden",
+        "gps": [
+            35.181,
+            -0.63599
+        ],
+        "stars": 4,
+        "price_per_night": 8322.0,
+        "region": "Sidi Bel Abbes"
+    },
+    {
+        "hotel_id": 174,
+        "name": "Hotel Eloued",
+        "gps": [
+            33.39933,
+            6.868
+        ],
+        "stars": 4.4,
+        "price_per_night": 9722.0,
+        "region": "El Oued"
+    },
+    {
+        "hotel_id": 175,
+        "name": "ُEl Oued Guesthouse",
+        "gps": [
+            33.3454,
+            6.86245
+        ],
+        "stars": 4.3,
+        "price_per_night": 13780.0,
+        "region": "El Oued"
+    },
+    {
+        "hotel_id": 176,
+        "name": "ُEl Habib Extended stay hotel",
+        "gps": [
+            33.37395,
+            6.85944
+        ],
+        "stars": 3.2,
+        "price_per_night": 5600.0,
+        "region": "El Oued"
+    },
+    {
+        "hotel_id": 177,
+        "name": "ُRetaj hotel",
+        "gps": [
+            33.37385,
+            6.86092
+        ],
+        "stars": 3.3,
+        "price_per_night": 8600.0,
+        "region": "El Oued"
+    },
+    {
+        "hotel_id": 178,
+        "name": "ُBois Pétrifié hotel",
+        "gps": [
+            23.60129,
+            5.80251
+        ],
+        "stars": 3.5,
+        "price_per_night": 7600.0,
+        "region": "Tamanrasset"
+    },
+    {
+        "hotel_id": 179,
+        "name": "Ksar Amazatenhotel",
+        "gps": [
+            29.44254,
+            0.2246
+        ],
+        "stars": 4.2,
+        "price_per_night": 15000.0,
+        "region": "Timimoun"
+    },
+    {
+        "hotel_id": 180,
+        "name": "Tiniri Hotel",
+        "gps": [
+            25.23597,
+            9.72822
+        ],
+        "stars": 4.2,
+        "price_per_night": 10000.0,
+        "region": "Djanet"
+    },
+    {
+        "hotel_id": 181,
+        "name": "Tingmar Hotel",
+        "gps": [
+            29.8649,
+            -0.13116
+        ],
+        "stars": 3.2,
+        "price_per_night": 7000.0,
+        "region": "Timimoun"
+    },
+    {
+        "hotel_id": 182,
+        "name": "Hotel of  Castellum Chlef",
+        "gps": [
+            36.17054,
+            1.33646
+        ],
+        "stars": 3.7,
+        "price_per_night": 7329.0,
+        "region": "Chelf"
+    },
+    {
+        "hotel_id": 183,
+        "name": "Hotel ARYA SKY",
+        "gps": [
+            36.98555,
+            6.56595
+        ],
+        "stars": 4,
+        "price_per_night": 8402.0,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 184,
+        "name": "Appart Hotel Aventure",
+        "gps": [
+            37.00628,
+            6.57476
+        ],
+        "stars": 3,
+        "price_per_night": 7202.0,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 185,
+        "name": "Hôtel Bougaroun",
+        "gps": [
+            37.01243,
+            6.5632
+        ],
+        "stars": 2,
+        "price_per_night": 5502.0,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 186,
+        "name": "Riif Hotel",
+        "gps": [
+            37.00568,
+            6.56626
+        ],
+        "stars": 2,
+        "price_per_night": 3902.0,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 187,
+        "name": "Salam Hotel",
+        "gps": [
+            36.8822,
+            6.90935
+        ],
+        "stars": 3,
+        "price_per_night": 7672.0,
+        "region": "Skikda"
+    },
+    {
+        "hotel_id": 188,
+        "name": "El Nour Hotel",
+        "gps": [
+            36.89395,
+            7.75753
+        ],
+        "stars": 3,
+        "price_per_night": 5995.0,
+        "region": "Annaba"
+    },
+    {
+        "hotel_id": 189,
+        "name": "Hotel Royal Elisa Annaba",
+        "gps": [
+            36.90861,
+            7.74663
+        ],
+        "stars": 3,
+        "price_per_night": 5585.0,
+        "region": "Annaba"
+    },
+    {
+        "hotel_id": 190,
+        "name": "Complexe thermal djihane Hotel",
+        "gps": [
+            36.45707,
+            7.26987
+        ],
+        "stars": 2,
+        "price_per_night": 3585.0,
+        "region": "Guelma"
+    },
+    {
+        "hotel_id": 191,
+        "name": "CCR MGPTT GUELMA Hotel",
+        "gps": [
+            36.45552,
+            7.26778
+        ],
+        "stars": 3,
+        "price_per_night": 3405.0,
+        "region": "Guelma"
+    },
+    {
+        "hotel_id": 192,
+        "name": "Mermoura Hotel",
+        "gps": [
+            36.46765,
+            7.43401
+        ],
+        "stars": 3,
+        "price_per_night": 4405.0,
+        "region": "Guelma"
+    },
+    {
+        "hotel_id": 193,
+        "name": "Lala Mawna Hotel",
+        "gps": [
+            36.47674,
+            7.43107
+        ],
+        "stars": 4,
+        "price_per_night": 6335.0,
+        "region": "Guelma"
+    },
+    {
+        "hotel_id": 194,
+        "name": "Carré Bleu Hotel",
+        "gps": [
+            36.75392,
+            6.26519
+        ],
+        "stars": 3,
+        "price_per_night": 5735.0,
+        "region": "Milla"
+    },
+    {
+        "hotel_id": 195,
+        "name": "Hôtel TAPIS ROUGE",
+        "gps": [
+            36.45489,
+            6.25858
+        ],
+        "stars": 4,
+        "price_per_night": 7109.0,
+        "region": "Milla"
+    }
+]

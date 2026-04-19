@@ -1,0 +1,43 @@
+  {
+  "destinations": {
+    "destination_id": "INT PRIMARY KEY",
+    "name": "VARCHAR",
+    "description": "TEXT",
+    "category": "VARCHAR",  
+    "gps": "FLOAT",
+    "rating": "FLOAT",
+    "entry_fee": "FLOAT",
+    "region": "VARCHAR",
+    "picture": "VARCHAR",
+    "airport_coordinated":"FLOAT"
+  },
+
+  "hotels": {
+    "hotel_id": "INT PRIMARY KEY",
+    "name": "VARCHAR",
+    "gps": "FLOAT",
+    "stars": "FLOAT",
+    "price_per_night": "FLOAT",
+    "region": "VARCHAR"
+  },
+
+  "restaurants": {
+    "restaurant_id": "INT PRIMARY KEY",
+    "name": "VARCHAR",
+    "gps": "FLOAT",
+    "price_per_meal": "FLOAT",
+    "region": "VARCHAR"
+  },
+
+  "destination_hotel": {
+    "destination_id": "INT FOREIGN KEY -> destinations.destination_id",
+    "hotel_id": "INT FOREIGN KEY -> hotels.hotel_id",
+    "PRIMARY_KEY": ["destination_id", "hotel_id"]
+  },
+
+  "destination_restaurant": {
+    "destination_id": "INT FOREIGN KEY -> destinations.destination_id",
+    "restaurant_id": "INT FOREIGN KEY -> restaurants.restaurant_id",
+    "PRIMARY_KEY": ["destination_id", "restaurant_id"]
+  }
+}

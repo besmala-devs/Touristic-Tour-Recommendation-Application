@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Details - 7-Day Algeria Tourist Guide</title>
+  <meta name="description" content="Comprehensive 7-day tour guide for Algeria">
+  <meta name="keywords" content="Algeria, tourism, travel, guide, itinerary">
+  <meta name="author" content="Algeria Tour Guide Team">
+  <!-- Built with HTML, CSS, and JavaScript -->
+  <link rel="stylesheet" href="../static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="logo">Algeria Tour Guide</a>
+        <nav class="nav">
+          <a href="/" class="nav-link">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a href="/tour" class="nav-link active">
+            <i class="fas fa-map-marked-alt"></i> View Tour
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="main-title">7-Day Algeria Tourist Guide</h1>
+      <p class="main-description">
+        Explore the beauty and rich culture of Algeria with our comprehensive 7-day itinerary, featuring the best
+        destinations, accommodations, and experiences.
+      </p>
+
+      <div id="preferences-summary" class="preferences-summary hidden">
+        <div class="alert">
+          <div class="alert-content">
+            <div class="alert-title">Customized Tour</div>
+            <div class="badge-container" id="preferences-badges"></div>
+          </div>
+          <div class="alert-actions">
+            <a href="/" class="btn btn-outline btn-sm">
+              <i class="fas fa-arrow-left"></i> Edit
+            </a>
+            <button id="clear-preferences-btn" class="btn btn-ghost btn-sm">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="tour-container">
+        <div class="tour-tabs">
+          <div class="tab-header">
+            <button class="tab-button active" data-tab="overview">Overview</button>
+            <button class="tab-button" data-tab="day-1">Day 1</button>
+            <button class="tab-button" data-tab="day-2">Day 2</button>
+            <button class="tab-button" data-tab="day-3">Day 3</button>
+            <button class="tab-button" data-tab="day-4">Day 4</button>
+            <button class="tab-button" data-tab="day-5">Day 5</button>
+            <button class="tab-button" data-tab="day-6">Day 6</button>
+            <button class="tab-button" data-tab="day-7">Day 7</button>
+          </div>
+
+          <div class="tab-content">
+            <!-- Overview Tab -->
+            <div class="tab-pane active" id="overview-tab">
+              <div class="tour-overview">
+                <div class="overview-header">
+                  <h2 class="section-title">Discover Algeria</h2>
+                  <p class="section-description">
+                    Experience the best of Algeria in this comprehensive 7-day tour. From the bustling streets of Algiers to the serene Sahara Desert, discover the rich history, diverse landscapes, and vibrant culture of this North African gem.
+                  </p>
+                  <div class="tour-meta">
+                    <div class="tour-meta-item">
+                      <i class="fas fa-calendar-alt"></i>
+                      <span>Duration: 7 days, 6 nights</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cost Summary Section -->
+                <div class="cost-summary-card">
+                  <div class="card-header">
+                    <h3 class="card-title"><i class="fas fa-dollar-sign"></i> Cost Summary</h3>
+                  </div>
+                  <div class="card-content">
+                    <div class="total-cost">
+                      <div class="cost-amount" id="cost-amount">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>100,000 DZD</span>
+                      </div>
+                      <div class="cost-description">Total cost for 7 days, per person</div>
+                    </div>
+
+                    <hr class="divider">
+
+                    <div class="cost-breakdown">
+                      <div class="cost-item">
+                        <div class="cost-item-header">
+                          <div class="cost-item-title">
+                            <i class="fas fa-credit-card text-blue"></i>
+                            <span>Transportation</span>
+                          </div>
+                          <div class="cost-item-amount" id="transport-cost">45,000 DZD</div>
+                        </div>
+                        <div class="progress-bar">
+                          <div class="progress progress-transport" style="width: 45%;"></div>
+                        </div>
+                        <div class="cost-item-description">Includes all transfers between destinations</div>
+                      </div>
+
+                      <div class="cost-item">
+                        <div class="cost-item-header">
+                          <div class="cost-item-title">
+                            <i class="fas fa-piggy-bank text-green"></i>
+                            <span>Accommodation</span>
+                          </div>
+                          <div class="cost-item-amount" id="accommodation-cost">45,000 DZD</div>
+                        </div>
+                        <div class="progress-bar">
+                          <div class="progress progress-hotels" style="width: 45%;"></div>
+                        </div>
+                        <div class="cost-item-description">6 nights in selected hotels (double occupancy)</div>
+                      </div>
+
+                      <div class="cost-item">
+                        <div class="cost-item-header">
+                          <div class="cost-item-title">
+                            <i class="fas fa-map-pin text-red"></i>
+                            <span>Entry Fees</span>
+                          </div>
+                          <div class="cost-item-amount" id="entry-cost">10,000 DZD</div>
+                        </div>
+                        <div class="progress-bar">
+                          <div class="progress progress-fees" style="width: 10%;"></div>
+                        </div>
+                        <div class="cost-item-description">All entrance fees to attractions</div>
+                      </div>
+                    </div>
+
+                    <div class="cost-note">
+                      <p>Prices are in Algerian Dinar (DZD). Exchange rate: approximately 1 USD = 135 DZD. Prices may vary based on season and availability.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Daily Itinerary Overview -->
+                <div class="daily-overview">
+                  <h3 class="section-title">Daily Itinerary Overview</h3>
+                  <div class="day-cards">
+                    <div class="day-card" data-day="1">
+                      <div class="day-card-header">
+                        <span class="day-number">Day 1</span>
+                      </div>
+                      <div class="day-card-content">
+                        <h4 class="day-title">Arrival in Algiers</h4>
+                        <p class="day-description">Begin your Algerian adventure in the capital city of Algiers, known as 'Algiers the White' for its stunning whitewashed buildings.</p>
+                        <button class="btn btn-outline btn-sm view-day-btn" data-day="1">
+                          View Details <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="day-card" data-day="2">
+                      <div class="day-card-header">
+                        <span class="day-number">Day 2</span>
+                      </div>
+                      <div class="day-card-content">
+                        <h4 class="day-title">Exploring Algiers</h4>
+                        <p class="day-description">Discover the rich history and culture of Algeria's capital city through its monuments, museums, and historic districts.</p>
+                        <button class="btn btn-outline btn-sm view-day-btn" data-day="2">
+                          View Details <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="day-card" data-day="3">
+                      <div class="day-card-header">
+                        <span class="day-number">Day 3</span>
+                      </div>
+                      <div class="day-card-content">
+                        <h4 class="day-title">Constantine - City of Bridges</h4>
+                        <p class="day-description">Travel to Constantine, known as the 'City of Bridges' for its spectacular natural bridges spanning deep gorges.</p>
+                        <button class="btn btn-outline btn-sm view-day-btn" data-day="3">
+                          View Details <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="day-card" data-day="4">
+                      <div class="day-card-header">
+                        <span class="day-number">Day 4</span>
+                      </div>
+                      <div class="day-card-content">
+                        <h4 class="day-title">Timgad & Batna</h4>
+                        <p class="day-description">Discover the well-preserved Roman ruins of Timgad and explore the city of Batna, gateway to the Aurès Mountains.</p>
+                        <button class="btn btn-outline btn-sm view-day-btn" data-day="4">
+                          View Details <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="day-card" data-day="5">
+                      <div class="day-card-header">
+                        <span class="day-number">Day 5</span>
+                      </div>
+                      <div class="day-card-content">
+                        <h4 class="day-title">Biskra & El Oued</h4>
+                        <p class="day-description">Journey to the edge of the Sahara Desert, visiting the oasis city of Biskra and the unique 'City of a Thousand Domes', El Oued.</p>
+                        <button class="btn btn-outline btn-sm view-day-btn" data-day="5">
+                          View Details <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="day-card" data-day="6">
+                      <div class="day-card-header">
+                        <span class="day-number">Day 6</span>
+                      </div>
+                      <div class="day-card-content">
+                        <h4 class="day-title">Ghardaïa & M'zab Valley</h4>
+                        <p class="day-description">Discover the unique architecture and culture of the M'zab Valley, a UNESCO World Heritage site with its pentapolis of fortified cities.</p>
+                        <button class="btn btn-outline btn-sm view-day-btn" data-day="6">
+                          View Details <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="day-card" data-day="7">
+                      <div class="day-card-header">
+                        <span class="day-number">Day 7</span>
+                      </div>
+                      <div class="day-card-content">
+                        <h4 class="day-title">Return to Algiers</h4>
+                        <p class="day-description">Return to the capital for your final day in Algeria, with time for last-minute shopping and a farewell dinner.</p>
+                        <button class="btn btn-outline btn-sm view-day-btn" data-day="7">
+                          View Details <i class="fas fa-chevron-right"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Practical Information -->
+                <div class="practical-info-card">
+                  <div class="card-header" style="display: flex; gap: 5px;">
+                    <i class="fas fa-lightbulb" style="font-size: 20px; color: #facc15;"></i>
+                    <h3 class="card-title">Practical Information</h3>
+                  </div>
+                  <div class="card-content">
+                    <div class="practical-info-grid">
+                      <div class="practical-info-column">
+                        <h4 class="info-title" style="color: blue; font-weight: bold;">What to Pack</h4>
+                        <ul class="info-list">
+                          <li>Lightweight clothing for hot days</li>
+                          <li>Warmer layers for cool evenings</li>
+                          <li>Comfortable walking shoes</li>
+                          <li>Sun protection (hat, sunglasses, sunscreen)</li>
+                          <li>Modest clothing for visiting religious sites</li>
+                          <li>Travel adapter for electrical outlets</li>
+                        </ul>
+                      </div>
+                      <div class="practical-info-column">
+                        <h4 class="info-title" style="color: blue; font-weight: bold;">Travel Tips</h4>
+                        <ul class="info-list">
+                          <li>The local currency is the Algerian Dinar (DZD)</li>
+                          <li>Arabic and French are the main languages spoken</li>
+                          <li>Respect local customs and dress modestly</li>
+                          <li>Tipping is appreciated but not mandatory</li>
+                          <li>Carry a copy of your passport and visa at all times</li>
+                          <li>Check travel advisories before your trip</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Day 1 Tab (as an example, other days would follow the same pattern) -->
+            <div class="tab-pane" id="day-1-tab">
+              <div class="day-itinerary" id="day-itinerary-1">
+                <div class="day-header">
+                  <h2 class="day-title">Day 1:</h2>
+                </div>
+                <!-- Activities Section -->
+                <div class="activities-section" id="activities-section1">
+
+                </div>
+
+                <!-- Transportation to Next Day -->
+                
+              </div>
+            </div>
+
+            <!-- Other day tabs would follow the same pattern -->
+            <div class="tab-pane" id="day-2-tab">
+              <div class="day-itinerary" id="day-itinerary-2">
+                <div class="day-header">
+                  <h2 class="day-title">Day 2:</h2>
+                </div>
+                <div class="activities-section" id="activities-section2">
+                    
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="tab-pane" id="day-3-tab">
+              <div class="day-itinerary" id="day-itinerary-3">
+                <div class="day-header">
+                  <h2 class="day-title">Day 3:</h2>
+                </div>
+                <div class="activities-section" id="activities-section3">
+                    
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="tab-pane" id="day-4-tab">
+              <div class="day-itinerary" id="day-itinerary-4">
+                <div class="day-header">
+                  <h2 class="day-title">Day 4:</h2>
+                </div>
+                <div class="activities-section" id="activities-section4">
+                    
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="tab-pane" id="day-5-tab">
+              <div class="day-itinerary" id="day-itinerary-5">
+                <div class="day-header">
+                  <h2 class="day-title">Day 5:</h2>
+                </div>
+                <div class="activities-section" id="activities-section5">
+                    
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="tab-pane" id="day-6-tab">
+              <div class="day-itinerary" id="day-itinerary-6">
+                <div class="day-header">
+                  <h2 class="day-title">Day 6:</h2>
+                </div>
+                <div class="activities-section" id="activities-section6">
+                    
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="tab-pane" id="day-7-tab">
+              <div class="day-itinerary" id="day-itinerary-7">
+                <div class="day-header">
+                  <h2 class="day-title">Day 7:</h2>
+                </div>
+                <div class="activities-section" id="activities-section7">
+                    
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="team-section">
+          <h3 class="footer-title">Our Team</h3>
+          <p class="footer-description">
+            This project was created by a team of 6 members from ENSIA University
+          </p>
+        </div>
+
+        <div class="team-members">
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ithar.bouguendoura@ensia.edu.dz">ithar.bouguendoura@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:besmala.douadi@ensia.edu.dz">besmala.douadi@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:amdjed.takieddine.guellati@ensia.edu.dz">amdjed.takieddine.guellati@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:danil.ouakli@ensia.edu.dz">danil.ouakli@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ahmed.bendjebbara@ensia.edu.dz">ahmed.bendjebbara@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ilyas.aniour@ensia.edu.dz">ilyas.aniour@ensia.edu.dz</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; <span id="current-year"></span> Algeria Tour Guide. All rights reserved.</p>
+          <div class="tech-stack">
+            <i class="fas fa-code"></i>
+            <span>Built with HTML, CSS, and JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../static/script.js"></script>
+  <script src="../static/data_form.js"></script>
+  <script src="../static/setData_to_tour.js"></script>
+</body>
+</html>

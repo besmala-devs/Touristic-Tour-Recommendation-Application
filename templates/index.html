@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7-Day Algeria Tourist Guide</title>
+  <meta name="description" content="Comprehensive 7-day tour guide for Algeria">
+  <meta name="keywords" content="Algeria, tourism, travel, guide, itinerary">
+  <meta name="author" content="Algeria Tour Guide Team">
+  <!-- Built with HTML, CSS, and JavaScript -->
+  <link rel="stylesheet" href="../static/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">Algeria Tour Guide</a>
+        <nav class="nav">
+          <a href="/" class="nav-link active">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a href="/tour" class="nav-link">
+            <i class="fas fa-map-marked-alt"></i> View Tour
+          </a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1 class="main-title">7-Day Algeria Tourist Guide</h1>
+      <p class="main-description">
+        Customize your 7-day Algeria experience to your preferences. Complete the form below to generate your
+        personalized itinerary.
+      </p>
+
+      <div class="tour-form-container">
+        <div id="validation-error" class="alert alert-error hidden">
+          <i class="fas fa-exclamation-circle"></i>
+          <span id="error-message"></span>
+        </div>
+
+        <div class="tabs">
+          <div class="tab-header">
+            <button class="tab-button active" data-tab="location">Location</button>
+            <button class="tab-button" data-tab="preferences">Preferences</button>
+            <button class="tab-button" data-tab="planning">Planning</button>
+          </div>
+
+          <div class="tab-content">
+            <!-- Location Tab -->
+            <div class="tab-pane active" id="location-tab">
+              <div class="card">
+                <div class="card-header">
+                  <h2 class="card-title"><i class="fas fa-location-arrow"></i> Current Location</h2>
+                  <p class="card-description">Let us know where you're starting from</p>
+                </div>
+                <div class="card-content">
+                  <div class="form-group">
+                    <button type="button" id="get-location-btn" class="btn btn-primary">
+                      <i class="fas fa-map-marker-alt"></i> Use Current Location
+                    </button>
+                  </div>
+
+                  <div id="current-location-display" class="location-display hidden">
+                    <div class="font-medium">Starting from:</div>
+                    <div class="location-name" id="location-name">GPS Location</div>
+                    <div class="location-coordinates" id="location-coordinates"></div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="destination-search">Search Destinations You already visited</label>
+                    <div class="search-container">
+                      <input type="text" id="destination-search" class="input" placeholder="Search for a destination...">
+                      <button type="button" class="search-button">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                    <div id="search-results" class="search-results hidden"></div>
+                  </div>
+
+                  <div id="selected-destinations-container" class="selected-destinations hidden">
+                    <label>Selected Destinations</label>
+                    <div id="selected-destinations" class="badge-container"></div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button type="button" class="btn btn-primary next-tab" data-next="preferences" id="next-btn-form1">
+                    Next <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Preferences Tab -->
+            <div class="tab-pane" id="preferences-tab">
+              <div class="card">
+                <div class="card-header">
+                  <h2 class="card-title"><i class="fas fa-compass"></i> Travel Preferences</h2>
+                  <p class="card-description">Tell us what you enjoy during your travels</p>
+                </div>
+                <div class="card-content">
+                  <div class="form-group">
+                    <label class="label">Preferred Categories (select at least 3)</label>
+                    <div class="checkbox-grid">
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-nature" class="category-checkbox" value="Nature">
+                        <label for="category-nature">Nature</label>
+                      </div>
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-museum" class="category-checkbox" value="Museum">
+                        <label for="category-museum">Museum</label>
+                      </div>
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-beach" class="category-checkbox" value="Beach">
+                        <label for="category-beach">Beach</label>
+                      </div>
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-landmark" class="category-checkbox" value="Historical Landmark">
+                        <label for="category-landmark">Historical Landmark</label>
+                      </div>
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-aquapark" class="category-checkbox" value="Aquapark">
+                        <label for="category-aquapark">Aquapark</label>
+                      </div>
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-amusement" class="category-checkbox" value="Amusement Park">
+                        <label for="category-amusement">Amusement Park</label>
+                      </div>
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-mall" class="category-checkbox" value="Mall">
+                        <label for="category-mall">Mall</label>
+                      </div>
+                      <div class="checkbox-item">
+                        <input type="checkbox" id="category-religious" class="category-checkbox" value="Religious Site">
+                        <label for="category-religious">Religious Site</label>
+                      </div>
+                    </div>
+                    <div class="category-status">
+                      <span id="category-badge" class="badge badge-error">0 / 3 selected</span>
+                      <span id="category-message" class="hint-text">Please select 3 more categories</span>
+                    </div>
+                    <div class="hint-text">
+                      Note: Aquaparks and beaches will be allocated a full day if selected.
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="label">Budget for the Week (DZD)</label>
+                    <div class="input-group">
+                      <input type="number" id="total-budget" class="input" value="100000" min="10000" max="1000000" step="5000">
+                      <span class="input-suffix">DZD (Algerian Dinar)</span>
+                    </div>
+                    <div class="hint-text">
+                      Recommended budget for a 7-day trip: 70,000 - 150,000 DZD per person
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="label">Hotel Standards</label>
+                    <div class="hotel-standards">
+                      <div class="hotel-standard-item">
+                        <label for="min-stars">Minimum Stars</label>
+                        <div class="stars-input">
+                          <input type="number" id="min-stars" class="input" value="3" min="1" max="5">
+                          <div class="stars" id="min-stars-display">
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-empty"></i>
+                            <i class="fas fa-star star-empty"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hotel-standard-item">
+                        <label for="max-stars">Maximum Stars</label>
+                        <div class="stars-input">
+                          <input type="number" id="max-stars" class="input" value="5" min="1" max="5">
+                          <div class="stars" id="max-stars-display">
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                            <i class="fas fa-star star-filled"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="label">Travel Priority</label>
+                    <div class="radio-group">
+                      <div class="radio-item">
+                        <input type="radio" id="priority-price" name="priority" value="cost" checked>
+                        <label for="priority-price">Price (Lower cost, may take longer)</label>
+                      </div>
+                      <div class="radio-item">
+                        <input type="radio" id="priority-time" name="priority" value="time">
+                        <label for="priority-time">Time (Faster travel, may cost more)</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button type="button" class="btn btn-outline prev-tab" data-prev="location">Back</button>
+                  <button type="button" class="btn btn-primary next-tab" data-next="planning">
+                    Next <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Planning Tab -->
+            <div class="tab-pane" id="planning-tab">
+              <div class="card">
+                <div class="card-header">
+                  <h2 class="card-title"><i class="fas fa-calculator"></i> Trip Planning</h2>
+                  <p class="card-description">Configure how your trip will be planned</p>
+                </div>
+                <div class="card-content">
+                  <div class="form-group">
+                    <label class="label">Pathfinding Algorithm</label>
+                    <div class="algorithm-options">
+                      <div class="algorithm-option" data-algorithm="astar">
+                        <input type="radio" id="algo-astar" name="algorithm" value="Astar" checked>
+                        <label for="algo-astar">
+                          <div class="algorithm-name">A* Algorithm</div>
+                          <div class="algorithm-description">Efficient pathfinding with heuristics</div>
+                        </label>
+                      </div>
+                      <div class="algorithm-option" data-algorithm="ucs">
+                        <input type="radio" id="algo-ucs" name="algorithm" value="UCS">
+                        <label for="algo-ucs">
+                          <div class="algorithm-name">UCS</div>
+                          <div class="algorithm-description">Uniform Cost Search for optimal paths</div>
+                        </label>
+                      </div>
+                      <div class="algorithm-option" data-algorithm="dls">
+                        <input type="radio" id="algo-dls" name="algorithm" value="DLS">
+                        <label for="algo-dls">
+                          <div class="algorithm-name">DLS</div>
+                          <div class="algorithm-description">Depth-Limited Search</div>
+                        </label>
+                      </div>
+                      <div class="algorithm-option" data-algorithm="csp">
+                        <input type="radio" id="algo-csp" name="algorithm" value="CSP">
+                        <label for="algo-csp">
+                          <div class="algorithm-name">CSP</div>
+                          <div class="algorithm-description">Constraint Satisfaction Problem with backtracking and forward checking</div>
+                        </label>
+                      </div>
+                      <div class="algorithm-option" data-algorithm="steepest">
+                        <input type="radio" id="algo-steepest" name="algorithm" value="Steepest HC">
+                        <label for="algo-steepest">
+                          <div class="algorithm-name">Steepest Ascent Hill Climbing</div>
+                          <div class="algorithm-description">Local optimization strategy</div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="label">Number of Destinations Per Day</label>
+                    <div class="slider-container">
+                      <input type="range" id="destinations-per-day" class="slider" min="1" max="3" step="1" value="2">
+                      <div class="slider-labels">
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                      </div>
+                      <div class="slider-value" id="destinations-value">2 destinations per day</div>
+                      <div class="hint-text text-center">
+                        Note: Aquaparks and beaches will be allocated a full day regardless of this setting.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button type="button" class="btn btn-outline prev-tab" data-prev="preferences">Back</button>
+                  <button type="button" id="generate-tour-btn" class="btn btn-primary">
+                    Generate Tour <i class="fas fa-chevron-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="team-section">
+          <h3 class="footer-title">Our Team</h3>
+          <p class="footer-description">
+            This project was created by a team of 6 members from ENSIA University
+          </p>
+        </div>
+
+        <div class="team-members">
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ithar.bouguendoura@ensia.edu.dz">ithar.bouguendoura@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:besmala.douadi@ensia.edu.dz">besmala.douadi@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:amdjed.takieddine.guellati@ensia.edu.dz">amdjed.takieddine.guellati@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:danil.ouakli@ensia.edu.dz">danil.ouakli@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ahmed.bendjebbara@ensia.edu.dz">ahmed.bendjebbara@ensia.edu.dz</a>
+          </div>
+          <div class="team-member">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:ilyas.aniour@ensia.edu.dz">ilyas.aniour@ensia.edu.dz</a>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; <span id="current-year"></span> Algeria Tour Guide. All rights reserved.</p>
+          <div class="tech-stack">
+            <i class="fas fa-code"></i>
+            <span>Built with HTML, CSS, and JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../static/script.js"></script>
+  <script src="../static/data_form.js"></script>
+</body>
+</html>
