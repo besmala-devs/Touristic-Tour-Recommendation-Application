@@ -31,14 +31,15 @@ python app.py
 
 Then open your browser and go to: **http://127.0.0.1:5000**
 
+## Screenshots
+
+<img src="screenshots/preferences.png" width="800"/>
+<img src="screenshots/plannings.png" width="800"/>
+<img src="screenshots/cost_summary.png" width="800"/>
+<img src="screenshots/plan.png" width="800"/>
+<img src="screenshots/plan2.png" width="800"/>
+
 ## Team 
 
 ![Team Members](screenshots/team.png)
 
-## Screenshots
-
-![preferences](screenshots/preferences.png)
-![planning](screenshots/plannings.png)
-![costSummary](screenshots/cost summary.png)
-![plan](screenshots/plan.png)
-![plan](screenshots/plan2.png)
