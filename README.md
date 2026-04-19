@@ -39,6 +39,6 @@ Then open your browser and go to: **http://127.0.0.1:5000**
 
 ![preferences](screenshots/preferences.png)
 ![planning](screenshots/plannings.png)
-![cost summary](screenshots/cost summary.png)
+![costSummary](screenshots/cost summary.png)
 ![plan](screenshots/plan.png)
 ![plan](screenshots/plan2.png)
