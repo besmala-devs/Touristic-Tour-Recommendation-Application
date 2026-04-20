@@ -16,6 +16,9 @@ Route visualizations and cost breakdowns
 
 ## Local Setup
 
+#### Note:
+- currently the Dataset is not shared in this repository, since we I did not agree with the members of the project about sharing it.
+
 ### Prerequisites
 Make sure you have Python installed. Then install the required dependency:
 
